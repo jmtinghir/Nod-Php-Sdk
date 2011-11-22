@@ -19,20 +19,6 @@ class Nod {
 		$this->version = $version;
 	}
 
-	public function getVersion() {
-		return $this->version;
-	}
-	public function setVersion($v) {
-		$this->version = $v;
-	}
-
-	public function getApiKey() {
-		return $this->apiKey;
-	}
-	public function setApiKey($k) {
-		$this->apiKey = $k;
-	}
-
 
 	/**
 	 * Return the result of a call to the NOD api.
@@ -103,6 +89,21 @@ class Nod {
 	 */
 	public function getTempsParcours($returnJson=false) {
 		return $this->callCmd("getTempsParcours", $returnJson);
+	}
+
+
+	public function getVersion() {
+		return $this->version;
+	}
+	public function setVersion($v) {
+		$this->version = $v;
+	}
+
+	public function getApiKey() {
+		return $this->apiKey;
+	}
+	public function setApiKey($k) {
+		$this->apiKey = $k;
 	}
 }
 ?>
