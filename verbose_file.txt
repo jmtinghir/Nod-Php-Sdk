@@ -1,0 +1,70 @@
+2011-11-21 23:27:01
+
+* About to connect() to data.nantes.fr port 80 (#0)
+*   Trying 80.82.231.207... * connected
+* Connected to data.nantes.fr (80.82.231.207) port 80 (#0)
+> GET /api/getInfoTraficTANTempsReel/1.0/39W9VSNCSASEOGV?output=json HTTP/1.1
+Host: data.nantes.fr
+Accept: */*
+
+* The requested URL returned error: 403
+* Closing connection #0
+2011-11-21 23:30:27
+
+* About to connect() to data.nantes.fr port 80 (#0)
+*   Trying 80.82.231.207... * connected
+* Connected to data.nantes.fr (80.82.231.207) port 80 (#0)
+> GET /api/getInfoTraficTANTempsReel/1.0/39W9VSNCSASEOGV?output=json HTTP/1.1
+Host: data.nantes.fr
+Accept: */*
+
+* The requested URL returned error: 403
+* Closing connection #0
+2011-11-21 23:30:29
+
+* About to connect() to data.nantes.fr port 80 (#0)
+*   Trying 80.82.231.207... * connected
+* Connected to data.nantes.fr (80.82.231.207) port 80 (#0)
+> GET /api/getInfoTraficTANTempsReel/1.0/39W9VSNCSASEOGV?output=json HTTP/1.1
+Host: data.nantes.fr
+Accept: */*
+
+* The requested URL returned error: 403
+* Closing connection #0
+2011-11-22 00:04:48
+
+* About to connect() to data.nantes.fr port 80 (#0)
+*   Trying 80.82.231.207... * connected
+* Connected to data.nantes.fr (80.82.231.207) port 80 (#0)
+> GET /api/getInfoTraficTANTempsReel/1.0/39W9VSNCSASEOGV?output=json HTTP/1.1
+Host: data.nantes.fr
+Accept: */*
+
+* The requested URL returned error: 403
+* Closing connection #0
+2011-11-22 00:06:26
+
+* About to connect() to data.nantes.fr port 80 (#0)
+*   Trying 80.82.231.207... * connected
+* Connected to data.nantes.fr (80.82.231.207) port 80 (#0)
+> GET /api/getInfoTraficTANTempsReel/1.0/39W9VSNCSASEOGV?output=json HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5
+Host: data.nantes.fr
+Accept: */*
+
+< HTTP/1.1 200 OK
+< Date: Tue, 22 Nov 2011 00:07:34 GMT
+< Server: Apache
+< X-Powered-By: PHP/5.3.3-7+squeeze3
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< Content-Length: 9222
+< Access-Control-Allow-Origin: *
+< Content-Type: application/json; charset=utf-8
+< Set-Cookie: PHPSESSID=abc8aol7tpu13fcskdv5if7oj6; path=/
+< Set-Cookie: fe_typo_user=13a2a7e81e673bb2d05e2c51ff914289; path=/
+< Set-Cookie: ROUTEID=.1; path=/
+< 
+* Connection #0 to host data.nantes.fr left intact
+* Closing connection #0
