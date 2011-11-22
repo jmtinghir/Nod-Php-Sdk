@@ -3,7 +3,9 @@
 /**
  * @author Jean-Marie Tinghir http://jmtinghir.net
  * 
- * Requires cUrl
+ * Gives acces to the Nantes Open Data API
+ * More info : http://data.nantes.fr/api
+ * Requires cUrl PHP extension
  */
 class Nod {
 
@@ -14,6 +16,12 @@ class Nod {
 
 	private $apiKey;
 
+
+	/**
+	 * 
+	 * @param string $apiKey Your application API key
+	 * @param string $version The API version number
+	 */
 	public function __construct($apiKey, $version = "1.0") {
 		$this->apiKey = $apiKey;
 		$this->version = $version;
@@ -22,7 +30,7 @@ class Nod {
 
 	/**
 	 * Return the result of a call to the NOD api.
-	 * @param string $cmd
+	 * @param string $cmd A valid api command
 	 * @param boolean $returnJson if true return json string, false return Object
 	 * @throws Exception
 	 */
