@@ -15,6 +15,6 @@ try {
 </head>
 <body>
 	<h1>Nantes Open Data : PHP SDK</h1>
-	<p>Data = <?php var_dump($data->opendata->answer->status) ?></p>
+	<p>Data = <?php var_dump($data->opendata->request) ?></p>
 </body>
 </html>

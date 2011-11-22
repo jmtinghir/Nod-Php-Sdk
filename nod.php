@@ -39,8 +39,8 @@ class Nod {
 		curl_setopt($ch, CURLOPT_FAILONERROR, true);
 		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 60);
-		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0');
-		
+		curl_setopt($ch, CURLOPT_USERAGENT, 'Nod-Php-Sdk');
+
 		$res = curl_exec($ch);
 // 		$infos = curl_getinfo($ch);
 		$err = curl_error($ch);
