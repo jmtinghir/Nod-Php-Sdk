@@ -68,6 +68,24 @@ class Nod {
 			return $res;
 		return json_decode($res);
 	}
+	
+	
+	/**
+	 * http://data.nantes.fr/les-donnees/documentation-de-lapi/getdisponibiliteparkingspublics/
+	 * @param boolean $returnJson if true return json string, false return Object
+	 */
+	public function getDisponibiliteParkingsPublics($returnJson=false) {
+		return $this->callCmd("getDisponibiliteParkingsPublics", $returnJson);
+	}
+	
+	
+	/**
+	 * http://data.nantes.fr/les-donnees/documentation-de-lapi/getInfoTraficTANPrevisionnel/
+	 * @param boolean $returnJson if true return json string, false return Object
+	 */
+	public function getInfoTraficTANPrevisionnel($returnJson=false) {
+		return $this->callCmd("getInfoTraficTANPrevisionnel", $returnJson);
+	}
 
 
 	/**
@@ -76,6 +94,15 @@ class Nod {
 	 */
 	public function getInfoTraficTANTempsReel($returnJson=false) {
 		return $this->callCmd("getInfoTraficTANTempsReel", $returnJson);
+	}
+
+
+	/**
+	 * http://data.nantes.fr/les-donnees/documentation-de-lapi/getTempsParcours/
+	 * @param boolean $returnJson if true return json string, false return Object
+	 */
+	public function getTempsParcours($returnJson=false) {
+		return $this->callCmd("getTempsParcours", $returnJson);
 	}
 }
 ?>
