@@ -14,4 +14,4 @@ Look for the test.php example
 
 Nantes Open Data
 ----------------
-More info about the Nantes Open Data API : data.nantes.fr/api
+More info about the Nantes Open Data API : http://data.nantes.fr/api
